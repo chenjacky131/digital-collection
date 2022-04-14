@@ -1,0 +1,6 @@
+Host github.com
+User chencw@tichain.com.cn
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443

@@ -1,0 +1,21 @@
+{
+  "name": "tic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "js-md5": "^0.7.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "mockjs": "^1.1.0",
+    "vconsole": "^3.8.1"
+  }
+}

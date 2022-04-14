@@ -1,0 +1,173 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login", //	登录
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/collection/collection", //	数字藏品首页
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/collection/discovery", //	发现更多
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/register/register", //	注册
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/register/setPassword", //	设置密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/login/forgetPassword", //	忘记密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/login/setPassword", //	设置密码
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine", //	我的
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/recordHistory", //	历史记录
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/payDetail", //	支付详情
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/circulationDetail", //	流转详情
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/setting", //	设置
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		},
+		{
+			"path": "pages/mine/worksDetail", //	我的-作品详情
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					"popGesture": "none" //	禁用侧滑返回功能
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"scrollIndicator": "none",
+		"app-plus": {
+			"scrollIndicator": "none",
+			"pullToRefresh": {
+				"support": true
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#A2A2A2",
+		"selectedColor": "#E49915",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": []
+	},
+	"easycom": {
+		"autoscan": true
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
